@@ -1,0 +1,296 @@
+body {
+    background-image: url(img/Estrelas.png);
+    background: #000000	rgb(0,0,0) ;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*-------------------------------------Começo da Nav-------------------------------------------*/
+
+nav {
+    background: #090E12;
+    
+    font-optical-sizing: auto;
+    text-align: center;
+   
+    /* Rectangle 1 */
+    position: absolute;
+    width: 1920px;
+    height: 162px;
+    left: 0px;
+    top: 0px;
+}
+
+nav img {
+    width: 200px;
+    height: 170px;
+    vertical-align: middle; 
+}
+
+nav ul {
+    display: inline-block; 
+    padding: 0;
+    margin: 0; 
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; 
+    vertical-align: middle; 
+}
+
+
+li {
+    display: inline;
+    margin: 0 auto;
+    margin-right: 20px;
+ 
+  }
+
+  a {
+    margin: 0 auto;
+    left: 10px;
+    text-decoration: none;
+    color: white;
+
+
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 46.48px;
+
+
+    width: 1107.43px;
+    height: 19px;
+    left: calc(50% - 1107.43px/2 - 8.26px);
+    top: 108.4px;
+  }
+
+  a:hover {
+    transition: 0.5s;
+    background: linear-gradient(270deg, #BBB5AA 0%, #656D63 41.91%, #122649 85.23%);
+    border-radius: 8px;
+}
+
+  nav button {
+    width: Hug (94.31px)px;
+    height: Hug (39.66px)px;
+    top: 78.07px;
+    left: 2590.79px;
+    padding: 10.33px 20.66px 10.33px 20.66px;
+    gap: 10.33px;
+    border-radius: 45.19px 0px 0px 0px;
+    opacity: 0px;
+
+    background: linear-gradient(270deg, #BBB5AA 0%, #656D63 41.91%, #122649 85.23%);
+    }
+/*-------------------------------------Fim da Nav-------------------------------------------*/
+  
+.terra {
+    img {
+        width: 1819.48px;
+        height: 1365.68px;
+        top: 636.19px;
+        left: -515.98px;
+        gap: 0px;
+        opacity: 0px;
+        rotate: 63.6 deg;
+
+    }
+
+    p {
+    /* API */
+
+    position: absolute;
+    width: 111px;
+    height: 57px;
+    left: calc(50% - 111px/2 + 2.08px);
+    top: 421px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46.4769px;
+    line-height: 57px;
+
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.33em;
+
+    color: #FFFFFF;
+
+
+}
+
+    h1 {
+    /* NASA */
+
+    position: absolute;
+    width: 702px;
+    height: 101px;
+    left: calc(50% - 702px/2);
+    top: calc(50% - 101px/2 + 26.5px);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 179.938px;
+    line-height: 219px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.27em;
+
+    color: #FFFFFF;
+ }
+
+    h2 {
+    /* STUDENT CHALLANGE */
+
+    position: absolute;
+    width: 872px;
+    height: 63px;
+    left: calc(50% - 872px/2 + 16px);
+    top: 682px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 50.641px;
+    line-height: 63px;
+
+    text-align: center;
+    letter-spacing: 0.32em;
+
+    color: #7A87B1;
+
+ }
+} 
+
+.news {
+    
+    h1{
+   /* NEWSPAPER */
+
+    position: absolute;
+    width: 1002px;
+    height: 101px;
+    left: calc(50% - 702px/2);
+    top: calc(203% - 101px/2 - 510.5px);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68.9383px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.27em;
+
+    color: #FFFFFF;
+
+}
+
+    p {
+       /* IMAGENS DA NASA */
+
+    position: absolute;
+    width: 530px;
+    height: 43px;
+    left: calc(50% - 618px/2);
+    top: 1355px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35.641px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.32em;
+
+    color: #7A87B1;
+    }
+} 
+
+/*-------------------------------------Começo-IMG-News-------------------------------------------*/
+/* Obs: As imagens são meramente ilustrativas*/
+
+.container {  
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . . . . . . . ."
+      ". img1 img1 img1 . img2 img2 img2 ."
+      ". img1 img1 img1 . img2 img2 img2 ."
+      ". . . . . . . . ."
+      ". img3 img3 img3 . img4 img4 img4 ."
+      ". img3 img3 img3 . img4 img4 img4 ."
+      ". . . . . . . . ."; 
+  }
+  
+  .img1 { 
+    grid-area: img1; 
+
+    .container {
+    max-width: 800px; /* ou qualquer outra largura */
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none; /* Esconde todas as slides inicialmente */
+    width: 100%; /* Garante que as imagens ocupem a largura total da div */
+    text-align: center;
+}
+
+.slide img {
+    width: 100%; /* Faz a imagem ocupar a largura total da div */
+    height: auto;
+}
+
+}
+  
+  .img2 { grid-area: img2; }
+  
+  .img3 { grid-area: img3; }
+  
+  .img4 { grid-area: img4; }
+  
+  /*-------------------------------------Fim-IMG-News-------------------------------------------*/
+
+.satelite {
+    h1 {
+       /* CENTRO DE SITUAÇÃO */
+
+    position: absolute;
+    width: 1236px;
+    height: 101px;
+    left: calc(50% - 1236px/2 + 26px);
+    top: calc(380% - 101px/2 - 476.5px);
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68.9383px;
+    line-height: 84px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.27em;
+
+    color: #FFFFFF;
+    }
+
+    p {
+        
+    }
+}
+  
